@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)file:///home/mercy/nailo/nailo.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            
+        }
+        body {
+            background-color: aliceblue;
+        }
+      .nav-bar {
+          display: flex;
+          height: 80px;
+          flex-direction: row;
+          background-color: gainsboro;
+          box-shadow: 0px 0px 10px rgb(197, 197, 205);
+      }
+      ul {
+        display: flex;
+          flex-direction: row;
+      }
+
+      img {
+          width: 30px;
+          height: 30px;
+          padding: 20px;
+          border-radius: 50%;
+          border: none;
+          
+      }
+      h3 {
+          padding: 10px;
+          padding-top: 25px;
+          padding-left: 0px;
+      }
+      ul li {
+          list-style: none;
+          padding: 10px;
+          padding-top: 25px;
+          
+          
+          
+      }
+      ul li a {
+          
+          text-decoration: none;
+          color: black;
+          
+          
+      }
+      
+      .list1 {
+        font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    text-transform: capitalize;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: absolute;
+    left: 400px;
+      }
+      .list2 {
+        font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    text-transform: capitalize;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: absolute;
+    left: 500px;
+      }
+      .list3 {
+        font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    text-transform: capitalize;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: absolute;
+    left: 600px;
+      }
+      .list4 {
+        font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    text-transform: capitalize;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    
+    position: absolute;
+    left: 750px;
+      }
+      .list5 {
+        font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    text-transform: capitalize;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: absolute;
+    left: 850px;
+    color: coral;
+      }
+      .list6 {
+        font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    text-transform: capitalize;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: absolute;
+    left: 900px;
+    color: coral;
+      }
+      .list7 {
+          color: coral;
+        font-size: 16px;
+    font-weight: 500;
+    
+    text-transform: capitalize;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+    margin-right: 15px;
+    position: absolute;
+    left: 950px;
+      }
+      .list8 {
+        font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -10px;
+    border-radius: 9px;
+    position: absolute;
+    left: 1100px;
+    background-color: orangered;
+      }
+      .list1:hover {
+          color: coral;
+      }
+      .list2:hover {
+          color: coral;
+      }
+      .list3:hover {
+          color: coral;
+      }
+      .list4:hover {
+          color: coral;
+      }
+    h1.title {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 2.5rem;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+    h2.job {
+        text-align: center;
+        padding-top: 45px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+     .form-control {
+         padding-left: 20px;
+         margin-top: 15px;
+    background-color: #ffffff;
+    border: none;
+    -webkit-box-shadow: 0 5px 28.5px 1.5px rgb(149 152 200 / 20%);
+    box-shadow: 0 5px 28.5px 1.5px rgb(149 152 200 / 20%);
+    height: 55px;
+    font-size: 16px;
+    display: flex;
+
+     
+}
+   span {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+   }
+   .default-btn {
+       font-size: 1.5rem;
+       color: ghostwhite;
+       background-color: coral;
+       border-radius: 9px;
+       padding-top: 3px;
+       padding-left: 20px;
+       padding-right: 20px;
+       height: 50px;
+       position: absolute;
+       top: 245px;
+       right: 270px;
+       border: none;
+   }
+   p.browse {
+       font-size: 20px;
+       position: absolute;
+       left: 420px;
+       padding-top: 10px;
+
+   }
+   h1.soft {
+       position: absolute;
+       left: 40%;
+       top: 400px;
+   }
+   .box1 {
+       border: 1px solid;
+       border-radius: 5px;
+       width: 200px;
+       height: 200px;
+       display: block;
+       position: absolute;
+       top: 600px;
+       left: 900px;
+       font-weight: 100;
+       font-size: 15px;
+       text-align: center;
+
+       
+   }
+   .box1 h1, p, a {
+      padding: 10px;
+   }
+   .box2 h1, p, a {
+      padding: 10px;
+   }
+   .box3 h1, p, a {
+      padding: 10px;
+   }
+   .box4 h1, p, a {
+      padding: 10px;
+   }
+   .box2 {
+       border: 1px solid;
+       border-radius: 5px;
+       width: 200px;
+       height: 200px;
+       display: block;
+       position: absolute;
+       top: 600px;
+       left: 650px;
+       font-weight: 100;
+       font-size: 15px;
+       text-align: center
+       
+   }
+   .box3 {
+       border: 1px solid;
+       border-radius: 5px;
+       width: 200px;
+       height: 200px;
+       display: block;
+       position: absolute;
+       top: 600px;
+       left: 400px;
+       font-weight: 100;
+       font-size: 15px;
+       text-align: center
+       
+   }
+   .box4 {
+       border: 1px solid;
+       border-radius: 5px;
+       width: 200px;
+       height: 200px;
+       display: block;
+       position: absolute;
+       top: 600px;
+      left: 150px;
+      font-weight: 100;
+       font-size: 15px;
+       text-align: center
+       
+   }
+   div a {
+       text-decoration: none;
+       list-style: none;
+       color: chocolate;
+   }
+   div.picture {
+       position: absolute;
+       top: 900px;
+   }
+
+   .picture img.jpg {
+       width: 500px;
+       height: 400px;
+       padding: 15px;
+       border-radius: 5px;
+   }
+   .picture h1 {
+       margin-top: -40px;
+       left: 550px;
+       top: 40px;
+       position: absolute;
+       width: 600px;
+   }
+   .picture p.one {
+       margin-top: -40px;
+       left: 550px;
+       top: 100px;
+       position: absolute;
+       width: 600px;
+   }
+   .picture p.two {
+       margin-top: -40px;
+       left: 550px;
+       top: 250px;
+       position: absolute;
+       width: 300px;
+   }
+   .picture p.tree {
+       margin-top: -40px;
+       left: 900px;
+       top: 250px;
+       position: absolute;
+       width: 300px;
+   }
+   .picture h3.tree {
+       margin-top: -40px;
+       left: 900px;
+       padding: 15px;
+       top: 220px;
+       position: absolute;
+       width: 300px;
+   }
+   .picture h3.two {
+       padding: 15px;
+       margin-top: -40px;
+       left: 550px;
+       top: 220px;
+       position: absolute;
+       width: 300px;
+   }
+   .picture #get {
+     background-color: rgb(228, 19, 19);
+     color: white;
+     position: absolute;
+     top: 130px;
+     width: 200px;
+     height: 50px;
+     text-align: center;
+     border: none;
+     border-radius: 10px;
+     font-size: 20px;
+     left: 550px;
+   }
+   div.resent {
+       position: absolute;
+       top: 1400px;
+       background-color: rgb(238, 238, 238);
+       width: 100%;
+   }
+   .resent h1  {
+       text-align: center;
+       font-family: sans-serif;
+       font-weight: 900;
+       font-size: 40px;
+       top: 15px;
+   }
+
+   .resent img {
+       width: 500px;
+       height: 400px;
+      position: absolute;
+      left: 0px;
+      top: 200px;
+       border-radius: 5px;
+   }
+   .resent button.two {
+    background-color: rgb(228, 19, 19);
+     color: white;
+     position: absolute;
+     top: 130px;
+     width: 200px;
+     height: 50px;
+     text-align: center;
+     border: none;
+     border-radius: 10px;
+     font-size: 20px;
+     left: 550px
+   }
+   .resent button.one {
+    background-color: rgb(228, 19, 19);
+     color: white;
+     position: absolute;
+     top: 500px;
+     width: 200px;
+     height: 50px;
+     text-align: center;
+     border: none;
+     border-radius: 10px;
+     font-size: 20px;
+     left: 550px
+   }
+   .resent p.two {
+       margin-top: -40px;
+       left: 550px;
+       top: 330px;
+       position: absolute;
+       width: 300px;
+       font-size: 25px;
+   }
+   .resent p.tree {
+       margin-top: -40px;
+       left: 900px;
+       top: 330px;
+       position: absolute;
+       width: 300px;
+       font-size: 25px;
+   }
+   .resent h3.tree {
+       margin-top: -40px;
+       left: 900px;
+       padding: 15px;
+       top: 220px;
+       position: absolute;
+       width: 300px;
+       font-size: 30px;
+       padding: 15px;
+   }
+   .resent h3.two {
+       font-size: 30px;
+       padding: 15px;
+       margin-top: -40px;
+       left: 550px;
+       top: 250px;
+       position: absolute;
+       width: 300px;
+   }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+     <div class="nav-bar">
+         <img src="./project succesfull_files/login.jpeg" alt="">
+         <h3>MyJobGator</h3>
+         <ul>
+             <li><a href="file:///home/mercy/nailo/nailo.html#" class="list1"> Home </a></li>
+             <li><a href="file:///home/mercy/nailo/nailo.html#" class="list2"> Jobs </a></li>
+             <li><a href="file:///home/mercy/nailo/nailo.html#" class="list3"> Career Advice </a></li>
+             <li><a href="file:///home/mercy/nailo/nailo.html#" class="list4"> Sector </a></li>
+             <li><a href="file:///home/mercy/nailo/nailo.html#" class="list5"> Login </a></li>
+             <li><a href="file:///home/mercy/nailo/nailo.html#" class="list6"> / </a></li>
+             <li><a href="file:///home/mercy/nailo/nailo.html#" class="list7"> Sign Up </a></li>
+             <li><a href="file:///home/mercy/nailo/nailo.html#" class="list8"> + Post A Job </a></li>
+         </ul>
+     </div>
+     <h1 class="title"> FIND THE JOB THAT FITS YOUR LIFE </h1>
+     <h2 class="job">We offer thousands of job opportunities right now</h2>
+     <span>
+     <input class="form-control" type="search" required="" placeholder="Job Title, Keywords, or Company" name="searchtext" value="">
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <input class="form-control" type="search" required="" placeholder="Location" name="location" value="">
+     <button type="submit" class="default-btn ">Search</button>
+     </span>
+     <p class="browse"> Browse job offers by category or location</p>
+     <div class="column">
+         <h1 class="soft"> Find the right job sectors </h1>
+         <div class="box1">
+             <h1>Software &amp;  Data</h1>
+             <p> 121 jobs</p>
+             <a href="file:///home/mercy/nailo/nailo.html#"> Explore jobs -&gt;</a>
+         </div>
+         <div class="box2">
+            <h1> Sales </h1>
+            <p> 110 jobs </p>
+            <a href="file:///home/mercy/nailo/nailo.html#"> Explore jobs -&gt;</a>
+         </div>
+         <div class="box3">
+            <h1> Health &amp; Safety</h1>
+            <p> 200 jobs</p>
+            <a href="file:///home/mercy/nailo/nailo.html#">Explore jobs -&gt;</a>
+         </div>
+         <div class="box4">
+            <h1> Admin &amp; Office</h1>
+            <p> 150 jobs</p>
+            <a href="file:///home/mercy/nailo/nailo.html#">Explore jobs -&gt;</a>
+         </div>
+     </div>
+     <div class="picture">
+         <img src="./project succesfull_files/log.jpg" class="jpg" alt="">
+         <h1>Advance your career with MyJobGator </h1>
+         <p class="one"> Create a free account, complete your profile and get matched with your dream right now.</p>
+         <button id="get"> GET STARTED</button>
+         <h3 class="two"> Get seen by employers</h3>
+         <p class="two"> With a complete profile, your application and profile are promoted to top employers so you stand out</p>
+         <h3 class="tree">  Get acces to top jobs first</h3>
+         <p class="tree"> sign up for job alerts and be first in line for our latest jobs that match your profile</p>
+     </div>
+     <div class="resent">
+       <h1> Recent Listing</h1>
+       <button class="two"> EXPLORE ALL JOBS </button>
+       <img src="./project succesfull_files/pizzar.jpeg" alt="">
+       <h3 class="two">Instant Job Finder</h3>
+       <p class="two">At MyJobgator our job finder system updates the database every 5 minutes so you are rest assured you will be getting you Dream Job</p>
+       <h3 class="tree">Get access to top jobs first
+    </h3>
+       <p class="tree">Sign up for job alerts and be first in line for the latest jobs that match your profile.</p>
+       <button class="one"> GET STARTED </button>
+     </div>
+     <div class="latest">
+
+     </div>
+    </div>
+    <footer>
+
+    </footer>
+    <script>
+
+    </script>
+
+</body></html>
